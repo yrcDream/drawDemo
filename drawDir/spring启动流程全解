@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T13:29:30.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="0up2ovaEzWESUXP-ARgr" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T13:30:52.679Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="nz3g6CvnyhlgLBLNPX0k" version="16.6.5" type="github">
   <diagram id="1YlylxdbHy1F8TUtXyjM" name="Page-1">
     <mxGraphModel dx="2105" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="PN-STA24KGvNC2ARlPmP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-1" target="PN-STA24KGvNC2ARlPmP-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PN-STA24KGvNC2ARlPmP-1" value="Spring程序启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PN-STA24KGvNC2ARlPmP-1" value="开启启动Spring程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PN-STA24KGvNC2ARlPmP-3" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -27,6 +27,9 @@
             <mxPoint x="340" y="99.5" as="sourcePoint" />
             <mxPoint x="426" y="100" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-13" target="PN-STA24KGvNC2ARlPmP-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PN-STA24KGvNC2ARlPmP-13" value="调用SpringApplication实例的run(args)方法" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="320" width="120" height="60" as="geometry" />
@@ -111,6 +114,15 @@
         </mxCell>
         <mxCell id="PN-STA24KGvNC2ARlPmP-37" value="创建SpringApplication实例结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-110" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-39" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="349.5" as="sourcePoint" />
+            <mxPoint x="426" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-40" value="启动Spring程序结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="445" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
