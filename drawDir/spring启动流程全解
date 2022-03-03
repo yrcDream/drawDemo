@@ -1,9 +1,117 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T07:36:40.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="1OsIP8jrr9oKrYx7w_Pz" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T13:29:05.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="0A_tMnGd23Crlby9u17-" version="16.6.5" type="github">
   <diagram id="1YlylxdbHy1F8TUtXyjM" name="Page-1">
-    <mxGraphModel dx="1278" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PN-STA24KGvNC2ARlPmP-5" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;SpringApplication.&lt;i&gt;run&lt;/i&gt;(XXXDemoApplication.class, args)&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;dashed=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="430" y="90" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-1" target="PN-STA24KGvNC2ARlPmP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-1" value="Spring程序启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-3" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="75" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-9" target="PN-STA24KGvNC2ARlPmP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-9" value="创建SpringApplication实例" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="99.5" as="sourcePoint" />
+            <mxPoint x="426" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-13" value="调用SpringApplication实例的run(args)方法" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-15" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="344" y="229.5" as="sourcePoint" />
+            <mxPoint x="130" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-16" target="PN-STA24KGvNC2ARlPmP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-16" value="开始创建SpringApplication实例" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-17" target="PN-STA24KGvNC2ARlPmP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-17" value="记录主类信息" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-19" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-413" y="280" as="sourcePoint" />
+            <mxPoint x="-70" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-20" value="如主类的全限定名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="340" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-22" target="PN-STA24KGvNC2ARlPmP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-22" value="设置应用类型" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-24" target="PN-STA24KGvNC2ARlPmP-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-24" value="获得&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; ; font-size: 13px&quot;&gt;BootstrapRegistry&lt;br&gt;Initializers&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-26" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="10" y="459.5" as="sourcePoint" />
+            <mxPoint x="-70" y="459.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-27" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 1px&quot;&gt;通常分为三种类型：reactive（交互式应用）&lt;br&gt;, servlet（web应用）, non（普通应用）&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="445" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-28" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="10" y="569.5" as="sourcePoint" />
+            <mxPoint x="-70" y="569.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-29" value="list列表，通过读取spring.factories后实例化获得" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="565" width="270" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-30" target="PN-STA24KGvNC2ARlPmP-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-30" value="获得监听器列表" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-32" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="10" y="689.5" as="sourcePoint" />
+            <mxPoint x="-70" y="689.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-34" value="list列表，通过读取spring.factories后实例化后获得。&lt;br&gt;会参与到后续的各种事件发布" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="685" width="290" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-35" target="PN-STA24KGvNC2ARlPmP-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-35" value="设置主类" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-37" value="创建SpringApplication实例结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
