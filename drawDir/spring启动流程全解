@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T13:30:56.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="jUCVZegnEBvtWtnqb9rS" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T13:41:15.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="qM92ZyvHzMOcJk7JLnk1" version="16.6.5" type="github">
   <diagram id="1YlylxdbHy1F8TUtXyjM" name="Page-1">
     <mxGraphModel dx="2105" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,6 +123,96 @@
         </mxCell>
         <mxCell id="PN-STA24KGvNC2ARlPmP-40" value="启动Spring程序结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-42" target="PN-STA24KGvNC2ARlPmP-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-42" value="开启运行spring程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-43" target="PN-STA24KGvNC2ARlPmP-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-43" value="开启启动监听" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-45" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="474.5" as="sourcePoint" />
+            <mxPoint x="636" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-46" value="主要用户记录程序启动时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="470" width="160" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-47" target="PN-STA24KGvNC2ARlPmP-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-47" value="创建引导上下文" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-49" target="PN-STA24KGvNC2ARlPmP-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-49" value="设置系统属性java.awt.headless" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-51" target="PN-STA24KGvNC2ARlPmP-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-51" value="设置系统属性java.awt.headless" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-53" target="PN-STA24KGvNC2ARlPmP-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-53" value="监听器发布应用启动事件" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-55" target="PN-STA24KGvNC2ARlPmP-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-55" value="准备上下文环境" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-57" target="PN-STA24KGvNC2ARlPmP-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-57" value="创建上下文" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-59" target="PN-STA24KGvNC2ARlPmP-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-59" value="准备上下文" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-61" target="PN-STA24KGvNC2ARlPmP-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-61" value="刷新上下文" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-63" target="PN-STA24KGvNC2ARlPmP-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-63" value="刷新上下文" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-65" target="PN-STA24KGvNC2ARlPmP-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-65" value="监听器发布应用启动结束事件" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=1;strokeWidth=3;" edge="1" parent="1" source="PN-STA24KGvNC2ARlPmP-67" target="PN-STA24KGvNC2ARlPmP-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-67" value="调用xxxRunner方法" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PN-STA24KGvNC2ARlPmP-69" value="正式运行spring程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1840" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
