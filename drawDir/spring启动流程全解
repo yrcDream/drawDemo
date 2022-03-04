@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T02:30:32.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="VrZZszdmH6sMXxqIs0fe" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T02:48:47.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="5jx4UqkWEGdCqWhUaT2F" version="16.6.5" type="github">
   <diagram id="1YlylxdbHy1F8TUtXyjM" name="Page-1">
-    <mxGraphModel dx="2105" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -216,12 +216,21 @@
         </mxCell>
         <mxCell id="Hi32mgaDBA9nvcU5-PY6-1" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="550" y="584.5" as="sourcePoint" />
-            <mxPoint x="636" y="585" as="targetPoint" />
+            <mxPoint x="550" y="820" as="sourcePoint" />
+            <mxPoint x="636" y="820.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Hi32mgaDBA9nvcU5-PY6-2" value="读取bootsrap.ymal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="580" width="120" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Hi32mgaDBA9nvcU5-PY6-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="594.5" as="sourcePoint" />
+            <mxPoint x="646" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hi32mgaDBA9nvcU5-PY6-4" value="内部有一个监听器列表，但通常只包含一个听器&lt;br&gt;&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; ; font-size: 13px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; ; font-size: 13px&quot;&gt;EventPublishingRunListener。详情见事件发布模型&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="805" width="310" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
