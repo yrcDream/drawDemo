@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T11:50:07.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="GqWZ3-iNzYAKLGmsMVjX" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T12:09:23.878Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="fUCWUpcbl0BXgMRdlWV8" version="16.6.5" type="github">
   <diagram id="1YlylxdbHy1F8TUtXyjM" name="Page-1">
     <mxGraphModel dx="2932" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -555,6 +555,24 @@
         </mxCell>
         <mxCell id="U19YHFArA2Ekr9VyYNyR-104" value="不同子类实现不同，&lt;br&gt;web型应用会进行Bean的扫描和注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0000CC;" vertex="1" parent="1">
           <mxGeometry x="1195" y="1975" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-105" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1130" y="2099.5" as="sourcePoint" />
+            <mxPoint x="1190" y="2099.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-106" value="&lt;font color=&quot;#00cc00&quot;&gt;1. 分类型处理；&lt;br&gt;2.待补充&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="2085" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-107" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1280" y="2099.5" as="sourcePoint" />
+            <mxPoint x="1530" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-108" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;ConfigurationClassPostProcessor&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;调用流程&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="2055" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
