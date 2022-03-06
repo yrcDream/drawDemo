@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T02:48:47.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="5jx4UqkWEGdCqWhUaT2F" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T09:17:16.038Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="5T12y5J4CvMHgePFIU6h" version="16.6.5" type="github">
   <diagram id="1YlylxdbHy1F8TUtXyjM" name="Page-1">
-    <mxGraphModel dx="2105" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="PN-STA24KGvNC2ARlPmP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" parent="1" source="PN-STA24KGvNC2ARlPmP-1" target="PN-STA24KGvNC2ARlPmP-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PN-STA24KGvNC2ARlPmP-1" value="开启启动Spring程序" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="PN-STA24KGvNC2ARlPmP-1" value="启动Spring程序开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PN-STA24KGvNC2ARlPmP-3" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -43,7 +43,7 @@
         <mxCell id="PN-STA24KGvNC2ARlPmP-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="PN-STA24KGvNC2ARlPmP-16" target="PN-STA24KGvNC2ARlPmP-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PN-STA24KGvNC2ARlPmP-16" value="开始创建SpringApplication实例" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="PN-STA24KGvNC2ARlPmP-16" value="创建SpringApplication实例开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PN-STA24KGvNC2ARlPmP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" parent="1" source="PN-STA24KGvNC2ARlPmP-17" target="PN-STA24KGvNC2ARlPmP-22" edge="1">
@@ -127,7 +127,7 @@
         <mxCell id="PN-STA24KGvNC2ARlPmP-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=1;strokeWidth=3;" parent="1" source="PN-STA24KGvNC2ARlPmP-42" target="PN-STA24KGvNC2ARlPmP-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PN-STA24KGvNC2ARlPmP-42" value="开启运行spring程序" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="PN-STA24KGvNC2ARlPmP-42" value="运行spring程序开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PN-STA24KGvNC2ARlPmP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=1;strokeWidth=3;" parent="1" source="PN-STA24KGvNC2ARlPmP-43" target="PN-STA24KGvNC2ARlPmP-47" edge="1">
@@ -214,23 +214,44 @@
         <mxCell id="PN-STA24KGvNC2ARlPmP-69" value="正式运行spring程序" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="1840" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Hi32mgaDBA9nvcU5-PY6-1" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="Hi32mgaDBA9nvcU5-PY6-1" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="550" y="820" as="sourcePoint" />
             <mxPoint x="636" y="820.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hi32mgaDBA9nvcU5-PY6-2" value="读取bootsrap.ymal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="580" width="120" height="10" as="geometry" />
+        <mxCell id="Hi32mgaDBA9nvcU5-PY6-2" value="读取bootsrap.ymal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="590" width="120" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="Hi32mgaDBA9nvcU5-PY6-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="Hi32mgaDBA9nvcU5-PY6-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="560" y="594.5" as="sourcePoint" />
             <mxPoint x="646" y="595" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hi32mgaDBA9nvcU5-PY6-4" value="内部有一个监听器列表，但通常只包含一个听器&lt;br&gt;&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; ; font-size: 13px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; ; font-size: 13px&quot;&gt;EventPublishingRunListener。详情见事件发布模型&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Hi32mgaDBA9nvcU5-PY6-4" value="内部有一个监听器列表，但通常只包含一个听器&lt;br&gt;&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; ; font-size: 13px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; ; font-size: 13px&quot;&gt;EventPublishingRunListener。详情见事件发布模型&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="640" y="805" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-1" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="939.5" as="sourcePoint" />
+            <mxPoint x="636" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-2" value="&lt;font color=&quot;#ff0000&quot;&gt;待解析&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="930" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="U19YHFArA2Ekr9VyYNyR-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="1059.5" as="sourcePoint" />
+            <mxPoint x="636" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-4" value="子流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="330" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-5" value="开启运行spring程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
