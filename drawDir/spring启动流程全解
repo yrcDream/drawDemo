@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T10:23:46.615Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="VOlt_CMMEND64WOLlnyh" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T11:28:34.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Wc1rULM8R4YO0debyNNz" version="16.6.5" type="github">
   <diagram id="1YlylxdbHy1F8TUtXyjM" name="Page-1">
     <mxGraphModel dx="2932" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -478,7 +478,7 @@
         <mxCell id="U19YHFArA2Ekr9VyYNyR-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;strokeWidth=3;" edge="1" parent="1" source="U19YHFArA2Ekr9VyYNyR-79" target="U19YHFArA2Ekr9VyYNyR-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U19YHFArA2Ekr9VyYNyR-79" value="预处理BeanFactory" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-79" value="准备BeanFactory" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="1840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U19YHFArA2Ekr9VyYNyR-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;strokeWidth=3;" edge="1" parent="1" source="U19YHFArA2Ekr9VyYNyR-80" target="U19YHFArA2Ekr9VyYNyR-81">
@@ -519,6 +519,24 @@
         </mxCell>
         <mxCell id="U19YHFArA2Ekr9VyYNyR-86" value="刷新结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="2630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-97" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="U19YHFArA2Ekr9VyYNyR-77">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1140" y="1530" as="sourcePoint" />
+            <mxPoint x="1190" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-98" value="&lt;font color=&quot;#0000ff&quot;&gt;刷新前的准备工作&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="1620" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-99" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1130" y="1753" as="sourcePoint" />
+            <mxPoint x="1190" y="1753" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19YHFArA2Ekr9VyYNyR-100" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;DefaultableListBeanFactory&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="1744" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
