@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T02:29:57.811Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="EczJ43ESzmPdIz_uWmao" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T07:31:42.654Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="P31ws6gR9tr96Ixvgg_h" version="17.4.2" type="github">
   <diagram id="1YlylxdbHy1F8TUtXyjM" name="Page-1">
-    <mxGraphModel dx="2649" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2727" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -707,6 +707,15 @@
         </mxCell>
         <mxCell id="U19YHFArA2Ekr9VyYNyR-150" value="+ getResources(...): Resource[]&#xa;&#xa;+ findPathMatchingResources(...):  Resource[]&#xa;&#xa;+ doFindPathMatchingFileResources(...) : &#xa;Set&lt;Resource&gt;&#xa;&#xa;+ doFindMatchingFileSystemResource&#xa;s(...): Set&lt;Resource&gt;&#xa;+ retrieveMatchingFiles(...): Set&lt;File&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1A1A1A;" parent="U19YHFArA2Ekr9VyYNyR-147" vertex="1">
           <mxGeometry y="56" width="290" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="-Q9ZRwiFEXfWllTX2v9u-1" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="U19YHFArA2Ekr9VyYNyR-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1080" y="960" as="sourcePoint" />
+            <mxPoint x="1080" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Q9ZRwiFEXfWllTX2v9u-2" value="&lt;font color=&quot;#ff0000&quot;&gt;运行第一个SpringApplication#run时，会触发BootstrapApplicatioinListener&lt;br&gt;的事件监听如果当前环境变量不包含&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; ; font-size: 13px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;spring.cloud.bootstrap.enabled属性，&lt;br&gt;就会实例化一个全新的SpringApplication，并在此执行run方法&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="835" y="885" width="430" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
