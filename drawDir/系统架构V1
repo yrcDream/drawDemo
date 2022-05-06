@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T14:35:42.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.2" etag="PAB4mYf-q4wzOjwnK2MK" type="github"><diagram id="AOESCa1Tb_VVzcVA1A66">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-06T14:38:27.481Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="nYWpOiDrjPuoxVl4ieVB" version="17.4.2" type="github">
+  <diagram id="AOESCa1Tb_VVzcVA1A66" name="Page-1">
+    <mxGraphModel dx="946" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bCKei24tnCUBccJ_7IOQ-1" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="760" y="140" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bCKei24tnCUBccJ_7IOQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bCKei24tnCUBccJ_7IOQ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bCKei24tnCUBccJ_7IOQ-2" value="后端服务" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bCKei24tnCUBccJ_7IOQ-3" value="前端服务" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bCKei24tnCUBccJ_7IOQ-4" value="用户" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bCKei24tnCUBccJ_7IOQ-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bCKei24tnCUBccJ_7IOQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="290" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bCKei24tnCUBccJ_7IOQ-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="179.5" as="sourcePoint" />
+            <mxPoint x="530" y="179.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bCKei24tnCUBccJ_7IOQ-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="179.5" as="sourcePoint" />
+            <mxPoint x="760" y="179.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bCKei24tnCUBccJ_7IOQ-8" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-10" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bCKei24tnCUBccJ_7IOQ-10" value="读/写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="160" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bCKei24tnCUBccJ_7IOQ-12" value="读" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="110" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bCKei24tnCUBccJ_7IOQ-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="bCKei24tnCUBccJ_7IOQ-8" target="bCKei24tnCUBccJ_7IOQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="70" as="sourcePoint" />
+            <mxPoint x="720" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bCKei24tnCUBccJ_7IOQ-15" value="读/写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="70" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
