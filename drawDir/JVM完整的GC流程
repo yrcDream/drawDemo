@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T15:17:10.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="s7qsASVdvoSs4G3G3LCP" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T15:22:16.369Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="jJfxi2y9-JTl-eLEo1tg" version="18.0.1" type="github">
   <diagram id="XC3634IzUTuRC08s7ZL-" name="Page-1">
-    <mxGraphModel dx="1773" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7134" dy="5262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,10 +76,8 @@
         <mxCell id="ayEsExFl9hArPRNnokno-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#333333;" edge="1" parent="1" source="ayEsExFl9hArPRNnokno-47" target="ayEsExFl9hArPRNnokno-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ayEsExFl9hArPRNnokno-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#1A1A1A;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ayEsExFl9hArPRNnokno-47" target="ayEsExFl9hArPRNnokno-114">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1232.6666666666667" y="20" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="ayEsExFl9hArPRNnokno-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="ayEsExFl9hArPRNnokno-47" target="ayEsExFl9hArPRNnokno-135">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ayEsExFl9hArPRNnokno-47" value="对象是否大于参数设置阀值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="-20" width="160" height="80" as="geometry" />
@@ -99,7 +97,7 @@
         <mxCell id="ayEsExFl9hArPRNnokno-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;fontColor=#1A1A1A;" edge="1" parent="1" source="ayEsExFl9hArPRNnokno-62" target="ayEsExFl9hArPRNnokno-111">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ayEsExFl9hArPRNnokno-62" value="尝试将大对象放入老年代" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ayEsExFl9hArPRNnokno-62" value="尝试在老年代申请空间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1280" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ayEsExFl9hArPRNnokno-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#333333;" edge="1" parent="1" source="ayEsExFl9hArPRNnokno-64" target="ayEsExFl9hArPRNnokno-73">
@@ -115,7 +113,7 @@
           <mxGeometry x="995" y="950" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ayEsExFl9hArPRNnokno-71" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="860" width="30" height="20" as="geometry" />
+          <mxGeometry x="1070" y="860" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ayEsExFl9hArPRNnokno-72" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-260" y="100" width="30" height="20" as="geometry" />
@@ -132,7 +130,7 @@
           <mxGeometry x="905" y="980" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ayEsExFl9hArPRNnokno-79" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#1A1A1A;" vertex="1" parent="1">
-          <mxGeometry x="995" y="1080" width="30" height="20" as="geometry" />
+          <mxGeometry x="1075" y="1210" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ayEsExFl9hArPRNnokno-80" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#1A1A1A;" vertex="1" parent="1">
           <mxGeometry x="1070" y="990" width="30" height="20" as="geometry" />
@@ -257,6 +255,24 @@
         </mxCell>
         <mxCell id="ayEsExFl9hArPRNnokno-132" value="&lt;font color=&quot;#1a1a1a&quot;&gt;否&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1624" y="380" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ayEsExFl9hArPRNnokno-133" value="&lt;font color=&quot;#ff0000&quot;&gt;此次Minor GC是安全的&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="360" y="430" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ayEsExFl9hArPRNnokno-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="ayEsExFl9hArPRNnokno-135" target="ayEsExFl9hArPRNnokno-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayEsExFl9hArPRNnokno-135" value="尝试在老年代申请空间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ayEsExFl9hArPRNnokno-138" value="（Servivor空间不足）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="860" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ayEsExFl9hArPRNnokno-139" value="（年龄超限制）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="990" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ayEsExFl9hArPRNnokno-143" value="（也属于大对象）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="1210" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
