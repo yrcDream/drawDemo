@@ -1,1 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T12:08:44.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" version="18.1.1" etag="zjcytzayrpKVeT_4utrI" type="github"><diagram id="O2LFSo9tVkk5Kg82n-Qa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-30T13:30:33.051Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="Fx72Rlx0vV0EGvnLvS5m" version="18.1.1" type="github">
+  <diagram id="O2LFSo9tVkk5Kg82n-Qa" name="Page-1">
+    <mxGraphModel dx="2066" dy="2323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VXIjp9B1M--sOm2r0Esz-1" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;@FeignClient+接口定义&lt;br&gt;&lt;br&gt;&lt;br&gt;包含rpc远程调用的基本信息&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="812" y="-145" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="VXIjp9B1M--sOm2r0Esz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="VXIjp9B1M--sOm2r0Esz-4" target="VXIjp9B1M--sOm2r0Esz-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VXIjp9B1M--sOm2r0Esz-4" value="&lt;span style=&quot;&quot;&gt;@EnableFeignClients&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;在启动类添加该注解，表示开启feign能力。&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-470" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VXIjp9B1M--sOm2r0Esz-10" value="&lt;font color=&quot;#ff0000&quot;&gt;导入FeignClientsRegister.class&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-210" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VXIjp9B1M--sOm2r0Esz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#FF0000;" edge="1" parent="1" source="VXIjp9B1M--sOm2r0Esz-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VXIjp9B1M--sOm2r0Esz-11" value="&lt;span style=&quot;&quot;&gt;FeignClientsRegister&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;扫描所有@FeignClient注解，生产动态代理实例 ，将实例放入容器中进行管理。&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-130" width="200" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
